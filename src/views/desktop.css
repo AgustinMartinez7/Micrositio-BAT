@@ -867,6 +867,15 @@
   line-height: 24px;
 }
  
+.video {
+  background-color: #111111;
+  width: 100%;
+  max-width: 1336px;
+  height: auto;
+  aspect-ratio: 16/9;
+  border-radius: 32px;
+}
+
 @media(max-width: 991px) {
   .desktop-thq-hero1-elm {
     padding-bottom: 64px;
