@@ -283,6 +283,9 @@
 .desktop-thq-image-elm2 {
   width: 300px;
   border-radius: 16px;
+  background-color: rgba(17, 17, 17, 0.800000011920929);
+  border-color: #222222;
+  border-width: 1px;
 }
  
 .desktop-thq-content-elm2 {
@@ -459,7 +462,7 @@
   border-color: #222222;
   border-width: 1px;
   border-radius: 16px;
-  backdrop-filter: blur(5px);
+  background-color: rgba(17, 17, 17, 0.800000011920929);
 }
  
 .desktop-thq-content-elm4 {
