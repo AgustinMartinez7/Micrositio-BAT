@@ -1,11 +1,11 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 
-import Header1 from '../components/header1';
-import Footer from '../components/footer';
-import './desktop.css';
+import Header1 from "../components/header1";
+import Footer from "../components/footer";
+import "./desktop.css";
 
 const Desktop = (props) => {
   return (
@@ -65,7 +65,7 @@ const Desktop = (props) => {
                       puedan surgir.
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: ' ',
+                          __html: " ",
                         }}
                       />
                     </span>
@@ -76,7 +76,7 @@ const Desktop = (props) => {
                     </span>
                   </span>
                 </div>
-                <Link to='/desafios' className='desktop-thq-text-elm18'>
+                <Link to="/" className="desktop-thq-text-elm18">
                   Hoja de ruta -&gt;
                 </Link>
               </div>
@@ -105,7 +105,7 @@ const Desktop = (props) => {
                     productos.
                   </span>
                 </div>
-                <Link to='/desafios' className='desktop-thq-text-elm22'>
+                <Link to="/" className="desktop-thq-text-elm22">
                   Hoja de ruta -&gt;
                 </Link>
               </div>
@@ -125,7 +125,7 @@ const Desktop = (props) => {
                     el desarrollo de software y la gestión de proyectos.
                   </span>
                 </div>
-                <Link to='/desafios' className='desktop-thq-text-elm26'>
+                <Link to="/" className="desktop-thq-text-elm26">
                   Hoja de ruta -&gt;
                 </Link>
               </div>
@@ -151,7 +151,7 @@ const Desktop = (props) => {
                     para resolverlo.
                   </span>
                 </div>
-                <Link to='/desafios' className='desktop-thq-text-elm30'>
+                <Link to="/" className="desktop-thq-text-elm30">
                   Hoja de ruta -&gt;
                 </Link>
               </div>
@@ -222,7 +222,7 @@ const Desktop = (props) => {
         </div>
         <Footer
           navTo={{
-            url: '#idMapas',
+            url: "#idMapas",
             newTab: false,
           }}
         ></Footer>
