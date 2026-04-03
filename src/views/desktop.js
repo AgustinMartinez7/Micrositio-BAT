@@ -88,7 +88,7 @@ const Desktop = (props) => {
             <div className="desktop-thq-row3-elm1">
               <img
                 alt="Image349"
-                src="/image349-ixd4eo-300w.png"
+                src="/perfiltomi.png"
                 className="desktop-thq-image-elm2"
               />
               <div className="desktop-thq-content-elm2">
