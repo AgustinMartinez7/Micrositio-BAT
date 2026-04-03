@@ -10,7 +10,7 @@ const Desafios = (props) => {
   return (
     <div className="desafios-container1">
       <Helmet>
-        <title>Desafios - exported project</title>
+        <title>Desafios - BAT</title>
         <meta property="og:title" content="Desafios - exported project" />
         <link
           rel="canonical"

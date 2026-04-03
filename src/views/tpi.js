@@ -10,7 +10,7 @@ const TPI = (props) => {
   return (
     <div className="tpi-container1">
       <Helmet>
-        <title>TPI - exported project</title>
+        <title>TPI - BAT</title>
         <meta property="og:title" content="TPI - exported project" />
         <link
           rel="canonical"

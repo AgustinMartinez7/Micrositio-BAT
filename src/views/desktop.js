@@ -11,8 +11,8 @@ const Desktop = (props) => {
   return (
     <div className="desktop-container1">
       <Helmet>
-        <title>exported project</title>
-        <meta property="og:title" content="exported project" />
+        <title>Micrositio - BAT</title>
+        <meta property="og:title" content="Micrositio - BAT" />
         <link rel="canonical" href="https://untitled-wvmfle.teleporthq.app/" />
         <meta
           property="og:url"
