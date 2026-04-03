@@ -7,9 +7,6 @@ import './not-found.css'
 const NotFound = (props) => {
   return (
     <div className="not-found-container1">
-      <Helmet>
-        <title>404 - Not Found</title>
-      </Helmet>
       <h3>OOPS! PAGE NOT FOUND</h3>
       <div className="not-found-container2">
         <h1 className="not-found-text2">404</h1>

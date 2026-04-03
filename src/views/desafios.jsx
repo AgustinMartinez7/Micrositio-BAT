@@ -9,18 +9,6 @@ import './desafios.css'
 const Desafios = (props) => {
   return (
     <div className="desafios-container1">
-      <Helmet>
-        <title>Desafios - BAT</title>
-        <meta property="og:title" content="Desafios - exported project" />
-        <link
-          rel="canonical"
-          href="https://untitled-wvmfle.teleporthq.app/desafios"
-        />
-        <meta
-          property="og:url"
-          content="https://untitled-wvmfle.teleporthq.app/desafios"
-        />
-      </Helmet>
       <div className="desafios-thq-desktop-elm">
         <div className="desafios-thq-featurecards1-elm">
           <Header1 rootClassName="header1root-class-name"></Header1>

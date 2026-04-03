@@ -10,15 +10,6 @@ import "./desktop.css";
 const Desktop = (props) => {
   return (
     <div className='desktop-container1'>
-      <Helmet>
-        <title>Micrositio - BAT</title>
-        <meta property='og:title' content='Micrositio - BAT' />
-        <link rel='canonical' href='https://untitled-wvmfle.teleporthq.app/' />
-        <meta
-          property='og:url'
-          content='https://untitled-wvmfle.teleporthq.app/'
-        />
-      </Helmet>
       <div className='desktop-thq-desktop-elm'>
         <div className='desktop-thq-hero1-elm'>
           <Header1 rootClassName='header1root-class-name2'></Header1>

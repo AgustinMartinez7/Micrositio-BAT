@@ -9,18 +9,6 @@ import './tpi.css'
 const TPI = (props) => {
   return (
     <div className="tpi-container1">
-      <Helmet>
-        <title>TPI - BAT</title>
-        <meta property="og:title" content="TPI - exported project" />
-        <link
-          rel="canonical"
-          href="https://untitled-wvmfle.teleporthq.app/tpi"
-        />
-        <meta
-          property="og:url"
-          content="https://untitled-wvmfle.teleporthq.app/tpi"
-        />
-      </Helmet>
       <div className="tpi-thq-desktop-elm">
         <div className="tpi-thq-featurecards1-elm">
           <Header1 rootClassName="header1root-class-name1"></Header1>
