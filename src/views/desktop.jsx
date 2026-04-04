@@ -18,14 +18,16 @@ const Desktop = (props) => {
             <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}>
               <span className='desktop-thq-text-elm11'>Hola,</span>
               <span className='desktop-thq-text-elm12'>somos</span>
+            </motion.div>
+            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}>
               <span className='desktop-thq-text-elm13'>BAT</span>
             </motion.div>
-            <motion.img
+            {/* <motion.img
               initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}
               alt='image'
               src='/batblanco-500w.png'
               className='desktop-image1'
-            />
+            /> */}
           </div>
           <motion.iframe
             initial={{ opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
