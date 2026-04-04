@@ -20,14 +20,9 @@ const Footer = (props) => {
           <Link to="/tpi" className="footer-thq-text-elm3">
             Trabajo Integrador
           </Link>
-          <a
-            href={props.navTo?.['url']}
-            target={props.navTo?.['newTab'] ? '_blank' : undefined}
-            rel={props.navTo?.['newTab'] ? 'noreferrer noopener' : undefined}
-            className="footer-thq-text-elm4"
-          >
+          <Link to="/#idMapas" className="header1-thq-text-elm4"> 
             Mapas Conceptuales
-          </a>
+          </Link>
         </div>
       </div>
       <hr className="footer-separator"></hr>
