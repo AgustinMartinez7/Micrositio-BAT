@@ -21,9 +21,9 @@ const Header1 = (props) => {
           <Link to="/tpi" className="header1-thq-text-elm3">
             TPI
           </Link>
-          <a href="#idMapas" className="header1-thq-text-elm4">
+          <Link to="/#idMapas" className="header1-thq-text-elm4"> 
             Mapas Conceptuales
-          </a>
+          </Link>
         </div>
       </div>
     </div>

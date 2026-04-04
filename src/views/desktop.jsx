@@ -221,7 +221,7 @@ const Desktop = (props) => {
         </div>
         <Footer
           navTo={{
-            url: "#idMapas",
+            url: "/#idMapas",
             newTab: false,
           }}
         ></Footer>
