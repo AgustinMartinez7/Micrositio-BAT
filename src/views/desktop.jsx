@@ -6,6 +6,7 @@ import { Helmet } from "react-helmet";
 import Header1 from "../components/header1";
 import Footer from "../components/footer";
 import "./desktop.css";
+import { motion } from "motion/react"
 
 const Desktop = (props) => {
   return (
@@ -14,22 +15,24 @@ const Desktop = (props) => {
         <div className='desktop-thq-hero1-elm'>
           <Header1 rootClassName='header1root-class-name2'></Header1>
           <div className='desktop-thq-text-elm10'>
-            <div className='desktop-thq-frame1-elm'>
+            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}>
               <span className='desktop-thq-text-elm11'>Hola,</span>
               <span className='desktop-thq-text-elm12'>somos</span>
               <span className='desktop-thq-text-elm13'>BAT</span>
-            </div>
-            <img
+            </motion.div>
+            <motion.img
+              initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}
               alt='image'
               src='/batblanco-500w.png'
               className='desktop-image1'
             />
           </div>
-          <iframe
+          <motion.iframe
+            initial={{ opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
             loading='lazy'
             src='https://www.canva.com/design/DAHF0-atzIA/L06Ltjnnp-f1J9AZPGM_4w/watch?embed&controls=false'
             className='video'
-          ></iframe>
+          ></motion.iframe>
         </div>
         <div className='desktop-thq-feature1-elm'>
           <img
@@ -71,17 +74,19 @@ const Desktop = (props) => {
                   Hoja de ruta -&gt;
                 </Link>
               </div>
-              <img
+              <motion.img
                 alt='Image329'
                 src='/perfilben-300h.png'
                 className='desktop-thq-image-elm1'
+                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
               />
             </div>
             <div className='desktop-thq-row3-elm1'>
-              <img
+              <motion.img
                 alt='Image349'
                 src='/perfiltomi.png'
                 className='desktop-thq-image-elm2'
+                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
               />
               <div className='desktop-thq-content-elm2'>
                 <div className='desktop-thq-text-elm19'>
@@ -120,17 +125,20 @@ const Desktop = (props) => {
                   Hoja de ruta -&gt;
                 </Link>
               </div>
-              <img
+              <motion.img
                 alt='image'
                 src='/perfilchiki-1500w.png'
                 className='desktop-image3'
+                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
               />
             </div>
             <div className='desktop-thq-row3-elm2'>
-              <img
+              <motion.img
                 alt='Image349'
                 src='/perfilbrian-300h.png'
                 className='desktop-thq-image-elm3'
+                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
+                
               />
               <div className='desktop-thq-content-elm4'>
                 <div className='desktop-thq-text-elm27'>
