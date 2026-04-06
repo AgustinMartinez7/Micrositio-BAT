@@ -1,8 +1,5 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-
 import PropTypes from 'prop-types'
-
 import './footer.css'
 
 const Footer = (props) => {
@@ -40,7 +37,6 @@ const Footer = (props) => {
             />
           </span>
           <span className="footer-text2">♥</span>
-          <span> </span>
         </span>
       </div>
     </div>

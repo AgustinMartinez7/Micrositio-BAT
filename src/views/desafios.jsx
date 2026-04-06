@@ -1,10 +1,7 @@
-import React from 'react'
-
-import { Helmet } from 'react-helmet'
-
 import Header1 from '../components/header1'
 import Footer from '../components/footer'
 import './desafios.css'
+import { motion } from 'motion/react'
 
 const Desafios = (props) => {
   return (
@@ -12,9 +9,14 @@ const Desafios = (props) => {
       <div className="desafios-thq-desktop-elm">
         <div className="desafios-thq-featurecards1-elm">
           <Header1 rootClassName="header1root-class-name"></Header1>
-          <span className="desafios-thq-text-elm10">Desafíos</span>
+          <motion.span 
+            className="desafios-thq-text-elm10"
+            initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
+              Desafíos
+          </motion.span>
           <div className="desafios-container2">
-            <div data-thq="accordion" className="desafios-accordion">
+            <motion.div data-thq="accordion" className="desafios-accordion"
+            initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
               <details
                 open
                 data-thq="accordion-trigger"
@@ -104,7 +106,7 @@ const Desafios = (props) => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
         <Footer rootClassName="footerroot-class-name"></Footer>

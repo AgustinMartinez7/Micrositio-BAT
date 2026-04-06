@@ -1,8 +1,4 @@
-import React from "react";
 import { Link } from "react-router-dom";
-
-import { Helmet } from "react-helmet";
-
 import Header1 from "../components/header1";
 import Footer from "../components/footer";
 import "./desktop.css";
@@ -15,19 +11,13 @@ const Desktop = (props) => {
         <div className='desktop-thq-hero1-elm'>
           <Header1 rootClassName='header1root-class-name2'></Header1>
           <div className='desktop-thq-text-elm10'>
-            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}>
+            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
               <span className='desktop-thq-text-elm11'>Hola,</span>
               <span className='desktop-thq-text-elm12'>somos</span>
             </motion.div>
-            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}>
+            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
               <span className='desktop-thq-text-elm13'>BAT</span>
             </motion.div>
-            {/* <motion.img
-              initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.7 } }}
-              alt='image'
-              src='/batblanco-500w.png'
-              className='desktop-image1'
-            /> */}
           </div>
           <motion.iframe
             initial={{ opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
@@ -166,9 +156,10 @@ const Desktop = (props) => {
             className='desktop-image4'
           />
           <div className='desktop-thq-frame6-elm2'>
-            <span id='idMapas' className='desktop-thq-text-elm31'>
+            <motion.span id='idMapas' className='desktop-thq-text-elm31'
+            initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
               Mapas Conceptuales
-            </span>
+            </motion.span>
           </div>
           <div className='desktop-thq-frame4-elm'>
             <div className='desktop-thq-card3-elm1'>
