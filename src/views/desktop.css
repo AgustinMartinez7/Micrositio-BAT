@@ -1035,3 +1035,37 @@
     width: 100%;
   }
 }
+
+@media (max-width: 479px) {
+  .desktop-thq-text-elm10 {
+    /* flex-direction: column; */
+    gap: 16px;
+    padding: 32px 0;
+  }
+
+  .desktop-thq-text-elm11 {
+    font-size: 32px;
+  }
+
+  .desktop-thq-text-elm12 {
+    font-size: 32px;
+  }
+
+  .desktop-thq-text-elm13 {
+    font-size: 80px;
+    margin-left: 0;
+  }
+
+  .desktop-thq-hero1-elm {
+    padding: 16px 8px;
+  }
+
+  .desktop-thq-frame3-elm {
+    padding: 0 8px;
+  }
+
+  .video {
+    width: 100%;
+    height: auto;
+  }
+}

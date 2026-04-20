@@ -20,7 +20,7 @@
  
 .desafios-thq-featurecards1-elm {
   gap: 32px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   padding: 32px 64px 120px;
   flex-grow: 1;
@@ -352,5 +352,116 @@
     width: 100%;
     height: auto;
     word-break: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .desafios-thq-featurecards1-elm {
+    padding: 16px 32px 80px;
+  }
+
+  .desafios-thq-text-elm10 {
+    font-size: 32px;
+    width: 100%;
+  }
+
+  .desafios-text1 {
+    font-size: 24px;
+  }
+
+  .desafios-thq-trigger-elm {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .desafios-thq-card3-elm {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  .desafios-thq-text-elm11,
+  .desafios-thq-text-elm14,
+  .desafios-thq-text-elm17,
+  .desafios-thq-text-elm20 {
+    padding: 16px;
+  }
+
+  .desafios-thq-text-elm12,
+  .desafios-thq-text-elm15,
+  .desafios-thq-text-elm18,
+  .desafios-thq-text-elm21,
+  .desafios-thq-text-elm27 {
+    font-size: 20px;
+  }
+
+  .desafios-thq-text-elm13,
+  .desafios-thq-text-elm16,
+  .desafios-thq-text-elm19,
+  .desafios-thq-text-elm22,
+  .desafios-thq-text-elm28 {
+    font-size: 16px;
+  }
+
+  .desafios-container4 {
+    right: 16px;
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 479px) {
+  .desafios-thq-featurecards1-elm {
+    padding: 16px 16px 60px;
+  }
+
+  .desafios-thq-text-elm10 {
+    font-size: 28px;
+  }
+
+  .desafios-text1 {
+    font-size: 20px;
+  }
+
+  .desafios-thq-trigger-elm {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .desafios-thq-text-elm11,
+  .desafios-thq-text-elm14,
+  .desafios-thq-text-elm17,
+  .desafios-thq-text-elm20 {
+    padding: 12px;
+  }
+
+  .desafios-thq-text-elm12,
+  .desafios-thq-text-elm15,
+  .desafios-thq-text-elm18,
+  .desafios-thq-text-elm21,
+  .desafios-thq-text-elm27 {
+    font-size: 18px;
+  }
+
+  .desafios-thq-text-elm13,
+  .desafios-thq-text-elm16,
+  .desafios-thq-text-elm19,
+  .desafios-thq-text-elm22,
+  .desafios-thq-text-elm28 {
+    font-size: 14px;
+  }
+
+  .desafios-container4 {
+    right: 8px;
+    bottom: 8px;
+    padding: 6px 8px;
+  }
+
+  .desafios-text4 {
+    font-size: 12px;
+  }
+
+  .desafios-icon3 {
+    width: 20px;
   }
 }
