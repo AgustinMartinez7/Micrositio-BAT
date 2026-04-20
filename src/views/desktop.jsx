@@ -43,23 +43,14 @@ const Desktop = (props) => {
                     Lopez Gutierrez Daniel Benjamin
                   </span>
                   <span className='desktop-thq-text-elm17'>
-                    <span>
-                      Mi rol en el equipo es mediar las ideas y garantizar que
-                      cada integrante aporte su visión y participe activamente
-                      en nuestras actividades. Mis principales fortalezas son la
-                      comunicación efectiva y la adaptabilidad a los cambios que
-                      puedan surgir.
-                      <span
-                        dangerouslySetInnerHTML={{
-                          __html: " ",
-                        }}
-                      />
-                    </span>
-                    <span>
-                      Me interesa seguir desarrollando e ir poniendo en práctica
-                      mis conocimientos de programación, gestión de proyectos y
-                      automatización de procesos.
-                    </span>
+                    Mi rol en el equipo es mediar las ideas y garantizar que
+                    cada integrante aporte su visión y participe activamente
+                    en nuestras actividades. Mis principales fortalezas son la
+                    comunicación efectiva y la adaptabilidad a los cambios que
+                    puedan surgir. <br />
+                    Me interesa seguir desarrollando e ir poniendo en práctica
+                    mis conocimientos de programación, gestión de proyectos y
+                    automatización de procesos.
                   </span>
                 </div>
                 <Link to="/" className="desktop-thq-text-elm18">
@@ -69,7 +60,7 @@ const Desktop = (props) => {
               <motion.img
                 alt='Image329'
                 src='/perfilben-300h.png'
-                className='desktop-thq-image-elm1'
+                className='desktop-profile-image'
                 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
               />
             </div>
@@ -77,7 +68,7 @@ const Desktop = (props) => {
               <motion.img
                 alt='Image349'
                 src='/perfiltomi.png'
-                className='desktop-thq-image-elm2'
+                className='desktop-profile-image'
                 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
               />
               <div className='desktop-thq-content-elm2'>
@@ -120,7 +111,7 @@ const Desktop = (props) => {
               <motion.img
                 alt='image'
                 src='/perfilchiki-1500w.png'
-                className='desktop-image3'
+                className='desktop-profile-image'
                 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
               />
             </div>
@@ -128,7 +119,7 @@ const Desktop = (props) => {
               <motion.img
                 alt='Image349'
                 src='/perfilbrian-300h.png'
-                className='desktop-thq-image-elm3'
+                className='desktop-profile-image'
                 initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
                 
               />
@@ -153,7 +144,7 @@ const Desktop = (props) => {
           <img
             alt='image'
             src='/frame%205-200h.png'
-            className='desktop-image4'
+            className='desktop-image2'
           />
           <div className='desktop-thq-frame6-elm2'>
             <motion.span id='idMapas' className='desktop-thq-text-elm31'

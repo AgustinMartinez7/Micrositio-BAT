@@ -430,7 +430,7 @@
   text-decoration: none;
 }
  
-.desktop-image3 {
+.desktop-profile-image {
   height: 300px;
   object-fit: cover;
   border-color: #222222;
@@ -527,6 +527,7 @@
 }
  
 .desktop-thq-featurecards1-elm {
+  width: 100%;
   gap: 32px;
   display: flex;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(27, 27, 27, 1) 100%);
@@ -881,6 +882,7 @@
 @media(max-width: 991px) {
   .desktop-thq-hero1-elm {
     padding-bottom: 64px;
+    gap: 32px;
   }
   .desktop-thq-text-elm11 {
     font-size: 72px;
@@ -956,7 +958,15 @@
   }
 }
  
-@media(max-width: 767px) {
+@media(max-width: 768px) {
+  .desktop-thq-hero1-elm {
+    padding: 32px 16px;
+  }
+
+  .desktop-thq-frame3-elm {
+    padding: 0 16px;
+  }
+
   .desktop-thq-text-elm11 {
     font-size: 48px;
   }
