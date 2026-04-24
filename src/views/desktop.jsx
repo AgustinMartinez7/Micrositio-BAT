@@ -2,50 +2,70 @@ import { Link } from "react-router-dom";
 import Header1 from "../components/header1";
 import Footer from "../components/footer";
 import "./desktop.css";
-import { motion } from "motion/react"
+import { motion } from "motion/react";
 
 const Desktop = (props) => {
   return (
-    <div className='desktop-container1'>
-      <div className='desktop-thq-desktop-elm'>
-        <div className='desktop-thq-hero1-elm'>
-          <Header1 rootClassName='header1root-class-name2'></Header1>
-          <div className='desktop-thq-text-elm10'>
-            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
-              <span className='desktop-thq-text-elm11'>Hola,</span>
-              <span className='desktop-thq-text-elm12'>somos</span>
+    <div className="desktop-container1">
+      <div className="desktop-thq-desktop-elm">
+        <div className="desktop-thq-hero1-elm">
+          <Header1 rootClassName="header1root-class-name2"></Header1>
+          <div className="desktop-thq-text-elm10">
+            <motion.div
+              className="desktop-thq-frame1-elm"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                ease: "easeInOut",
+                y: { type: "spring", visualDuration: 0.4, bounce: 0.4 },
+              }}
+            >
+              <span className="desktop-thq-text-elm11">Hola,</span>
+              <span className="desktop-thq-text-elm12">somos</span>
             </motion.div>
-            <motion.div className='desktop-thq-frame1-elm' initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
-              <span className='desktop-thq-text-elm13'>BAT</span>
+            <motion.div
+              className="desktop-thq-frame1-elm"
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                ease: "easeInOut",
+                y: { type: "spring", visualDuration: 0.4, bounce: 0.4 },
+              }}
+            >
+              <span className="desktop-thq-text-elm13">BAT</span>
             </motion.div>
           </div>
           <motion.iframe
-            initial={{ opacity: 0 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}
-            loading='lazy'
-            src='https://www.canva.com/design/DAHF0-atzIA/L06Ltjnnp-f1J9AZPGM_4w/watch?embed&controls=false'
-            className='video'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            loading="lazy"
+            src="https://www.canva.com/design/DAHF0-atzIA/L06Ltjnnp-f1J9AZPGM_4w/watch?embed&controls=false"
+            className="video"
           ></motion.iframe>
         </div>
-        <div className='desktop-thq-feature1-elm'>
+        <div className="desktop-thq-feature1-elm">
           <img
-            alt='image'
-            src='/frame%205-200h.png'
-            className='desktop-image2'
+            alt="image"
+            src="/frame%205-200h.png"
+            className="desktop-image2"
           />
-          <div className='desktop-thq-frame6-elm1'>
-            <span className='desktop-thq-text-elm14'>El Equipo</span>
+          <div className="desktop-thq-frame6-elm1">
+            <span className="desktop-thq-text-elm14">El Equipo</span>
           </div>
-          <div className='desktop-thq-frame3-elm'>
-            <div className='desktop-thq-row1-elm1'>
-              <div className='desktop-thq-content-elm1'>
-                <div className='desktop-thq-text-elm15'>
-                  <span className='desktop-thq-text-elm16'>
+          <div className="desktop-thq-frame3-elm">
+            <div className="desktop-thq-row1-elm1">
+              <div className="desktop-thq-content-elm1">
+                <div className="desktop-thq-text-elm15">
+                  <span className="desktop-thq-text-elm16">
                     Lopez Gutierrez Daniel Benjamin
                   </span>
-                  <span className='desktop-thq-text-elm17'>
+                  <span className="desktop-thq-text-elm17">
                     Mi rol en el equipo es mediar las ideas y garantizar que
-                    cada integrante aporte su visión y participe activamente
-                    en nuestras actividades. Mis principales fortalezas son la
+                    cada integrante aporte su visión y participe activamente en
+                    nuestras actividades. Mis principales fortalezas son la
                     comunicación efectiva y la adaptabilidad a los cambios que
                     puedan surgir. <br />
                     Me interesa seguir desarrollando e ir poniendo en práctica
@@ -53,30 +73,47 @@ const Desktop = (props) => {
                     automatización de procesos.
                   </span>
                 </div>
-                <Link to="/" className="desktop-thq-text-elm18">
+                <Link
+                  to="https://docs.google.com/document/d/1pz-sHGZbcpTPoYLRZ0j9NMRGjLTXmqU20VGTdR70iOg/edit?usp=drive_link"
+                  className="desktop-thq-text-elm18"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Hoja de ruta -&gt;
                 </Link>
               </div>
               <motion.img
-                alt='Image329'
-                src='/perfilben-300h.png'
-                className='desktop-profile-image'
-                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
+                alt="Image329"
+                src="/perfilben-300h.png"
+                className="desktop-profile-image"
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.5,
+                  ease: "easeInOut",
+                  scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+                }}
               />
             </div>
-            <div className='desktop-thq-row3-elm1'>
+            <div className="desktop-thq-row3-elm1">
               <motion.img
-                alt='Image349'
-                src='/perfiltomi.png'
-                className='desktop-profile-image'
-                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
+                alt="Image349"
+                src="/perfiltomi.png"
+                className="desktop-profile-image"
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.5,
+                  ease: "easeInOut",
+                  scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+                }}
               />
-              <div className='desktop-thq-content-elm2'>
-                <div className='desktop-thq-text-elm19'>
-                  <span className='desktop-thq-text-elm20'>
+              <div className="desktop-thq-content-elm2">
+                <div className="desktop-thq-text-elm19">
+                  <span className="desktop-thq-text-elm20">
                     López Tomás Agustín 
                   </span>
-                  <span className='desktop-thq-text-elm21'>
+                  <span className="desktop-thq-text-elm21">
                     Cumplo el rol de llevar las ideas y los objetivos a tareas
                     que podamos realizar. Busco siempre mantener el trabajo
                     organizado y colaborar con todo lo que se necesite.
@@ -84,18 +121,23 @@ const Desktop = (props) => {
                     productos.
                   </span>
                 </div>
-                <Link to="/" className="desktop-thq-text-elm22">
+                <Link
+                  to="https://docs.google.com/document/d/1sC6WWzNqhPQDXE5298KBNJolAj-yFRlED-5K2hHkd1c/edit?usp=drive_link"
+                  className="desktop-thq-text-elm22"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Hoja de ruta -&gt;
                 </Link>
               </div>
             </div>
-            <div className='desktop-thq-row1-elm2'>
-              <div className='desktop-thq-content-elm3'>
-                <div className='desktop-thq-text-elm23'>
-                  <span className='desktop-thq-text-elm24'>
+            <div className="desktop-thq-row1-elm2">
+              <div className="desktop-thq-content-elm3">
+                <div className="desktop-thq-text-elm23">
+                  <span className="desktop-thq-text-elm24">
                     Martinez Agustin Francisco
                   </span>
-                  <span className='desktop-thq-text-elm25'>
+                  <span className="desktop-thq-text-elm25">
                     Dentro del equipo, me identifico con el rol de responsable,
                     porque se relaciona con mi manera de trabajar y aportar al
                     grupo. Mis fortalezas son la responsabilidad, organización,
@@ -104,99 +146,129 @@ const Desktop = (props) => {
                     el desarrollo de software y la gestión de proyectos.
                   </span>
                 </div>
-                <Link to="/" className="desktop-thq-text-elm26">
+                <Link
+                  to="https://docs.google.com/document/d/1xetlPcjVCZtxFgno8lCPvHgR4RQ-0rzoHKqn6mw_Tj8/edit?usp=drive_link"
+                  className="desktop-thq-text-elm26"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Hoja de ruta -&gt;
                 </Link>
               </div>
               <motion.img
-                alt='image'
-                src='/perfilchiki-1500w.png'
-                className='desktop-profile-image'
-                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
+                alt="image"
+                src="/perfilchiki-1500w.png"
+                className="desktop-profile-image"
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.5,
+                  ease: "easeInOut",
+                  scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+                }}
               />
             </div>
-            <div className='desktop-thq-row3-elm2'>
+            <div className="desktop-thq-row3-elm2">
               <motion.img
-                alt='Image349'
-                src='/perfilbrian-300h.png'
-                className='desktop-profile-image'
-                initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5, ease: "easeInOut", scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 } }}
-                
+                alt="Image349"
+                src="/perfilbrian-300h.png"
+                className="desktop-profile-image"
+                initial={{ opacity: 0, scale: 0 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{
+                  duration: 0.5,
+                  ease: "easeInOut",
+                  scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
+                }}
               />
-              <div className='desktop-thq-content-elm4'>
-                <div className='desktop-thq-text-elm27'>
-                  <span className='desktop-thq-text-elm28'>Ojeda Brian</span>
-                  <span className='desktop-thq-text-elm29'>
+              <div className="desktop-thq-content-elm4">
+                <div className="desktop-thq-text-elm27">
+                  <span className="desktop-thq-text-elm28">Ojeda Brian</span>
+                  <span className="desktop-thq-text-elm29">
                     En el equipo, soy el creativo, constante fuente de nuevas
                     ideas, perspectivas y caminos por probar. Cuando el problema
                     amerita un cambio de enfoque, busco los recursos necesarios
                     para resolverlo.
                   </span>
                 </div>
-                <Link to="/" className="desktop-thq-text-elm30">
+                <Link
+                  to="https://docs.google.com/document/d/1Lp_kDLEFrwu8DRudjb9LMFQFsrgH-ncdPqCwt64Sows/edit?usp=sharing"
+                  className="desktop-thq-text-elm30"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Hoja de ruta -&gt;
                 </Link>
               </div>
             </div>
           </div>
         </div>
-        <div className='desktop-thq-featurecards1-elm'>
+        <div className="desktop-thq-featurecards1-elm">
           <img
-            alt='image'
-            src='/frame%205-200h.png'
-            className='desktop-image2'
+            alt="image"
+            src="/frame%205-200h.png"
+            className="desktop-image2"
           />
-          <div className='desktop-thq-frame6-elm2'>
-            <motion.span id='idMapas' className='desktop-thq-text-elm31'
-            initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, ease: "easeInOut", y: { type: "spring", visualDuration: 0.4, bounce: 0.4 } }}>
+          <div className="desktop-thq-frame6-elm2">
+            <motion.span
+              id="idMapas"
+              className="desktop-thq-text-elm31"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.5,
+                ease: "easeInOut",
+                y: { type: "spring", visualDuration: 0.4, bounce: 0.4 },
+              }}
+            >
               Mapas Conceptuales
             </motion.span>
           </div>
-          <div className='desktop-thq-frame4-elm'>
-            <div className='desktop-thq-card3-elm1'>
-              <div className='desktop-thq-body-elm1'>
-                <div className='desktop-thq-text-elm32'>
-                  <span className='desktop-thq-text-elm33'>
+          <div className="desktop-thq-frame4-elm">
+            <div className="desktop-thq-card3-elm1">
+              <div className="desktop-thq-body-elm1">
+                <div className="desktop-thq-text-elm32">
+                  <span className="desktop-thq-text-elm33">
                     Nivel 1 - Operativo
                   </span>
-                  <span className='desktop-thq-text-elm34'>
+                  <span className="desktop-thq-text-elm34">
                     Call out a feature, benefit, or value of your site or
                     product that can stand on its own.
                   </span>
                 </div>
-                <span className='desktop-thq-text-elm35'>
+                <span className="desktop-thq-text-elm35">
                   Mapa conceptual -&gt;
                 </span>
               </div>
             </div>
-            <div className='desktop-thq-card3-elm2'>
-              <div className='desktop-thq-body-elm2'>
-                <div className='desktop-thq-text-elm36'>
-                  <span className='desktop-thq-text-elm37'>
+            <div className="desktop-thq-card3-elm2">
+              <div className="desktop-thq-body-elm2">
+                <div className="desktop-thq-text-elm36">
+                  <span className="desktop-thq-text-elm37">
                     Nivel 2 - Ejecutivo
                   </span>
-                  <span className='desktop-thq-text-elm38'>
+                  <span className="desktop-thq-text-elm38">
                     Call out a feature, benefit, or value of your site or
                     product that can stand on its own.
                   </span>
                 </div>
-                <span className='desktop-thq-text-elm39'>
+                <span className="desktop-thq-text-elm39">
                   Mapa conceptual -&gt;
                 </span>
               </div>
             </div>
-            <div className='desktop-thq-card3-elm3'>
-              <div className='desktop-thq-body-elm3'>
-                <div className='desktop-thq-text-elm40'>
-                  <span className='desktop-thq-text-elm41'>
+            <div className="desktop-thq-card3-elm3">
+              <div className="desktop-thq-body-elm3">
+                <div className="desktop-thq-text-elm40">
+                  <span className="desktop-thq-text-elm41">
                     Nivel 3 - Estratégico
                   </span>
-                  <span className='desktop-thq-text-elm42'>
+                  <span className="desktop-thq-text-elm42">
                     Call out a feature, benefit, or value of your site or
                     product that can stand on its own.
                   </span>
                 </div>
-                <span className='desktop-thq-text-elm43'>
+                <span className="desktop-thq-text-elm43">
                   Mapa conceptual -&gt;
                 </span>
               </div>
