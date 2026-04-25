@@ -51,6 +51,12 @@ const Header1 = (props) => {
             Home
           </Link>
           <Link 
+            to="/actividades" 
+            className="header1-thq-text-elm4"
+          > 
+            Actividades
+          </Link>
+          <Link 
             to="/desafios" 
             className="header1-thq-text-elm2"
           >
@@ -61,12 +67,6 @@ const Header1 = (props) => {
             className="header1-thq-text-elm3"
           >
             TPI
-          </Link>
-          <Link 
-            to="/#idMapas" 
-            className="header1-thq-text-elm4"
-          > 
-            Mapas Conceptuales
           </Link>
         </motion.div>
 
@@ -102,11 +102,11 @@ const Header1 = (props) => {
             TPI
           </Link>
           <Link 
-            to="/#idMapas" 
+            to="/actividades" 
             className="header1-thq-text-elm4"
             onClick={closeMenu}
           > 
-            Mapas Conceptuales
+            Actividades
           </Link>
         </motion.div>
       </div>

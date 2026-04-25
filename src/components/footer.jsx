@@ -8,17 +8,17 @@ const Footer = (props) => {
       <div className="footer-container1">
         <img alt="image" src="/batblanco-200h.png" className="footer-image" />
         <div className="footer-thq-nav-elm">
-          <Link to="/" className="footer-thq-text-elm1">
+          <Link to="/" className="header1-thq-text-elm1">
             Home
           </Link>
-          <Link to="/desafios" className="footer-thq-text-elm2">
+          <Link to="/actividades" className="header1-thq-text-elm1"> 
+            Actividades
+          </Link>
+          <Link to="/desafios" className="header1-thq-text-elm1">
             Desafíos
           </Link>
-          <Link to="/tpi" className="footer-thq-text-elm3">
-            Trabajo Integrador
-          </Link>
-          <Link to="/#idMapas" className="header1-thq-text-elm4"> 
-            Mapas Conceptuales
+          <Link to="/tpi" className="header1-thq-text-elm1">
+            TPI
           </Link>
         </div>
       </div>

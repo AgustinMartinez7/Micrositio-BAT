@@ -27,6 +27,7 @@ const HashScroll = () => {
 import "./style.css";
 import TPI from "./views/tpi";
 import Desafios from "./views/desafios";
+import Actividades from "./views/actividades";
 import Desktop from "./views/desktop";
 import NotFound from "./views/not-found";
 
@@ -37,6 +38,7 @@ const App = () => {
       <Routes>
         <Route path="/tpi" element={<TPI />} />
         <Route path="/desafios" element={<Desafios />} />
+        <Route path="/actividades" element={<Actividades />} />
         <Route path="/" element={<Desktop />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
