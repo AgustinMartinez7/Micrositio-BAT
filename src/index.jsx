@@ -29,6 +29,8 @@ import TPI from "./views/tpi";
 import Desafios from "./views/desafios";
 import Actividades from "./views/actividades";
 import Desktop from "./views/desktop";
+import ActividadDetalle from "./views/actividad-detalle";
+import DesafioDetalle from "./views/desafio-detalle";
 import NotFound from "./views/not-found";
 
 const App = () => {
@@ -38,7 +40,9 @@ const App = () => {
       <Routes>
         <Route path="/tpi" element={<TPI />} />
         <Route path="/desafios" element={<Desafios />} />
+        <Route path="/desafios/:id" element={<DesafioDetalle />} />
         <Route path="/actividades" element={<Actividades />} />
+        <Route path="/actividades/:id" element={<ActividadDetalle />} />
         <Route path="/" element={<Desktop />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

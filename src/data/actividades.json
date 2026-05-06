@@ -1,0 +1,29 @@
+[
+  {
+    "id": "act-3",
+    "titulo": "Actividad 3",
+    "descripcion": "Breve descripción de la actividad 3. Aquí puedes resumir de qué se trata y su objetivo principal.",
+    "Solución": "Call out a feature, benefit, or value that can stand on its own.",
+    "Herramientas": "Call out a feature, benefit, or value that can stand on its own.",
+    "Problema abordado": "Call out a feature, benefit, or value that can stand on its own.",
+    "Evidencias": [
+      { "label": "Google Doc", "value": "" },
+      { "label": "Presentation", "value": "" },
+      { "label": "Video", "value": "" }
+    ],
+    "Reflexión de equipo": "Call out a feature, benefit, or value that can stand on its own. Call out a feature, benefit, or value that can stand on its own. Call out a feature, benefit, or value that can stand on its own."
+  },
+  {
+    "id": "act-2",
+    "titulo": "Actividad 2",
+    "descripcion": "Descripción concisa de la actividad 2 para mostrar en la grilla. Un vistazo general al trabajo realizado.",
+    "Solución": "Descripción de la solución de la actividad 2. Puedes editar este texto desde el archivo JSON.",
+    "Herramientas": "Herramientas utilizadas en la actividad 2.",
+    "Problema abordado": "Problema que se abordó en esta actividad.",
+    "Evidencias": [
+      { "label": "Documento", "value": "Enlace al documento" },
+      { "label": "Video demo", "value": "Enlace al video" }
+    ],
+    "Reflexión del equipo": "Reflexión del equipo sobre la actividad 2. Este contenido es generado dinámicamente desde el archivo JSON, tomando la clave (el atributo) como el título de la sección."
+  }
+]
