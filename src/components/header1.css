@@ -194,10 +194,6 @@
     border: 1px solid #222222;
   }
 
-  .header1-thq-nav-elm.open {
-    display: flex !important;
-  }
-
   .header1-thq-text-elm1,
   .header1-thq-text-elm2,
   .header1-thq-text-elm3,

@@ -35,14 +35,8 @@ const Header1 = (props) => {
         </button>
 
         {/* Menu en pantallas grandes */}
-        <motion.div 
+        <div 
           className={`header1-thq-nav-elm-desktop`}
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ 
-            opacity: 1, 
-            y: 0,
-          }}
-          transition={{ duration: 0.3 }}
         >
           <Link 
             to="/"
@@ -68,47 +62,43 @@ const Header1 = (props) => {
           >
             TPI
           </Link>
-        </motion.div>
+        </div>
 
         {/* Menú de navegación */}
-        <motion.div 
-          className={`header1-thq-nav-elm-mobile ${isMenuOpen ? 'open' : ''}`}
-          initial={{ opacity: 0, y: -10 }}
-          animate={{ 
-            opacity: isMenuOpen ? 1 : 0, 
-            y: isMenuOpen ? 0 : -10,
-          }}
-          transition={{ duration: 0.3 }}
-        >
-          <Link 
-            to="/" 
-            className="header1-thq-text-elm1"
-            onClick={closeMenu}
+        { isMenuOpen && 
+          <div 
+            className={`header1-thq-nav-elm-mobile`}
           >
-            Home
-          </Link>
-          <Link 
-            to="/desafios" 
-            className="header1-thq-text-elm2"
-            onClick={closeMenu}
-          >
-            Desafios
-          </Link>
-          <Link 
-            to="/tpi" 
-            className="header1-thq-text-elm3"
-            onClick={closeMenu}
-          >
-            TPI
-          </Link>
-          <Link 
-            to="/actividades" 
-            className="header1-thq-text-elm4"
-            onClick={closeMenu}
-          > 
-            Actividades
-          </Link>
-        </motion.div>
+            <Link 
+              to="/" 
+              className="header1-thq-text-elm1"
+              onClick={closeMenu}
+            >
+              Home
+            </Link>
+            <Link 
+              to="/desafios" 
+              className="header1-thq-text-elm2"
+              onClick={closeMenu}
+            >
+              Desafios
+            </Link>
+            <Link 
+              to="/tpi" 
+              className="header1-thq-text-elm3"
+              onClick={closeMenu}
+            >
+              TPI
+            </Link>
+            <Link 
+              to="/actividades" 
+              className="header1-thq-text-elm4"
+              onClick={closeMenu}
+            > 
+              Actividades
+            </Link>
+          </div> 
+        }
       </div>
     </div>
   )
