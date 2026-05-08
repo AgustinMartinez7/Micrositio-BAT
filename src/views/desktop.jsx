@@ -225,22 +225,28 @@ const Desktop = (props) => {
             </motion.span>
           </div>
           <div className="desktop-thq-frame4-elm">
-            <div className="desktop-thq-card3-elm1">
-              <div className="desktop-thq-body-elm1">
-                <div className="desktop-thq-text-elm32">
-                  <span className="desktop-thq-text-elm33">
-                    Nivel 1 - Operativo
-                  </span>
-                  <span className="desktop-thq-text-elm34">
-                    Call out a feature, benefit, or value of your site or
-                    product that can stand on its own.
+            <Link 
+              to="https://drive.google.com/file/d/14blLdI6pzrnKJbgCUJfCHA6AVb_p7o5T/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div className="desktop-thq-card3-elm1">
+                <div className="desktop-thq-body-elm1">
+                  <div className="desktop-thq-text-elm32">
+                    <span className="desktop-thq-text-elm33">
+                      Nivel 1 - Operativo
+                    </span>
+                    <span className="desktop-thq-text-elm34">
+                      Este nivel contempla las unidades 1, 2 y 3 del programa.
+                    </span>
+                  </div>
+                  <span className="desktop-thq-text-elm35">
+                    Mapa conceptual -&gt;
                   </span>
                 </div>
-                <span className="desktop-thq-text-elm35">
-                  Mapa conceptual -&gt;
-                </span>
               </div>
-            </div>
+            </Link>
+            
             <div className="desktop-thq-card3-elm2">
               <div className="desktop-thq-body-elm2">
                 <div className="desktop-thq-text-elm36">
@@ -248,8 +254,7 @@ const Desktop = (props) => {
                     Nivel 2 - Ejecutivo
                   </span>
                   <span className="desktop-thq-text-elm38">
-                    Call out a feature, benefit, or value of your site or
-                    product that can stand on its own.
+                    Este nivel contempla las unidades 4, 5 y 6 del programa.
                   </span>
                 </div>
                 <span className="desktop-thq-text-elm39">
@@ -264,8 +269,7 @@ const Desktop = (props) => {
                     Nivel 3 - Estratégico
                   </span>
                   <span className="desktop-thq-text-elm42">
-                    Call out a feature, benefit, or value of your site or
-                    product that can stand on its own.
+                    Este nivel contempla la unidad 7 del programa.
                   </span>
                 </div>
                 <span className="desktop-thq-text-elm43">
