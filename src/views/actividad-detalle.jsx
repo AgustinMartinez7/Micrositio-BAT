@@ -87,11 +87,10 @@ const ActividadDetalle = () => {
                             const isUrl = typeof val === 'string' && /^(https?:\/\/)/i.test(val);
                             return (
                               <div key={i} className="evidence-item">
-                                <strong>{item.label}:</strong>{' '}
                                 {isUrl ? (
-                                  <a href={val} target="_blank" rel="noopener noreferrer" className="act-detalle-link">{val}</a>
+                                  <a href={val} target="_blank" rel="noopener noreferrer">{item.label}</a>
                                 ) : (
-                                  <span dangerouslySetInnerHTML={{ __html: val || ' ' }} />
+                                  <span>{item.label}</span>
                                 )}
                               </div>
                             );

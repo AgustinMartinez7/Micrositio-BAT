@@ -68,7 +68,6 @@
   font-size: 18px;
   font-family: "Manrope";
   margin: 0;
-  /* max-width: 800px; */
 }
 
 .act-detalle-content {
@@ -163,4 +162,14 @@
   object-fit: contain;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.evidence-item a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.evidence-item a:hover {
+  color: #888888;
+  text-decoration: underline;
 }

@@ -2,29 +2,34 @@
   {
     "id": "desafio-1",
     "titulo": "Desafío 1",
-    "descripcion": "Breve descripción del desafío 1. Aquí puedes resumir de qué se trata y su objetivo principal.",
-    "Solución": "Call out a feature, benefit, or value that can stand on its own.",
-    "Herramientas": "Call out a feature, benefit, or value that can stand on its own.",
-    "Problema abordado": "Call out a feature, benefit, or value that can stand on its own.",
+    "descripcion": "Formar equipos de trabajo, elegir un nombre para cada grupo y completar la tabla con los miembros.",
+    "Solución": "Se organizaron los grupos, se eligió un nombre representativo y se registraron los integrantes en la tabla.",
+    "Herramientas": "Trabajo en equipo, Comunicación, Organización.",
+    "Problema abordado": "Lograr una correcta organización de los participantes y fomentar la colaboración grupal.",
     "Evidencias": [
-      { "label": "Google Doc", "value": "" },
-      { "label": "Presentation", "value": "" },
-      { "label": "Video", "value": "" }
+      { "label": "Planilla excel", "value": "https://docs.google.com/spreadsheets/d/1d72jumZqjv2Cf6S9gRtI51NsscmfXRLjlv-0IlbqaXE/edit?gid=0#gid=0" }
     ],
-    "Reflexión de equipo": "Call out a feature, benefit, or value that can stand on its own. Call out a feature, benefit, or value that can stand on its own. Call out a feature, benefit, or value that can stand on its own."
+    "Reflexión de equipo": "La actividad ayudó a mejorar la comunicación, la organización y el trabajo colaborativo."
   },
   {
     "id": "desafio-2",
     "titulo": "Desafío 2",
-    "descripcion": "Descripción concisa del desafío 2 para mostrar en la grilla. Un vistazo general al trabajo realizado.",
-    "Solución": "Descripción de la solución del desafío 2. Puedes editar este texto desde el archivo JSON.",
-    "Herramientas": "Herramientas utilizadas en el desafío 2.",
-    "Problema abordado": "Problema que se abordó en este desafío.",
+    "descripcion": "Realizar un trabajo colaborativo para recuperar y aplicar conocimientos previos de la asignatura Sistemas y Procesos de Negocios.",
+    "Solución": "El equipo investigó y desarrolló las propiedades de los sistemas asignadas: homeostasis, entropía, neguentropía y burocracia, relacionándolas con ejemplos prácticos.",
+    "Herramientas": "Investigación teórica, Trabajo colaborativo, Análisis de conceptos.",
+    "Problema abordado": "Comprender cómo las propiedades de los sistemas influyen en el funcionamiento y organización de las empresas.",
     "Evidencias": [
-      { "label": "Documento", "value": "Enlace al documento" },
-      { "label": "Video demo", "value": "Enlace al video" }
+      { "label": "Trabajo Colaborativo", "value": "https://docs.google.com/document/d/1HLpXFn8TUcrNDoV1iCYRi92xEOXl8YfuvezvC__G35w/edit?usp=sharing" }
     ],
-    "Reflexión del equipo": "Reflexión del equipo sobre el desafío 2. Este contenido es generado dinámicamente desde el archivo JSON, tomando la clave (el atributo) como el título de la sección.",
-    "imagen": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+    "Reflexión del equipo": "La actividad permitió reforzar conocimientos previos y mejorar la comprensión de conceptos fundamentales de los sistemas organizacionales."
+  },
+   {
+    "id": "desafio-3",
+    "titulo": "Desafío 3",
+    "descripcion": "Desarrollar un portfolio digital que evidencie el aprendizaje, las producciones y la evolución del equipo durante la cursada.",
+    "Solución": "Se creó un micrositio organizado por secciones, incluyendo presentación del equipo, desafíos realizados, actividades realizadas, mapas conceptuales y recursos trabajados en la materia.",
+    "Herramientas": "React, HTML, CSS, JavaScript y herramientas de maquetación para desarrollar un micrositio claro, organizado y visualmente atractivo, aplicando además diseño web, organización de contenidos y trabajo colaborativo.",
+    "Problema abordado": "Centralizar y mostrar de forma clara el proceso de aprendizaje, las competencias desarrolladas y las producciones del equipo.",
+    "Reflexión del equipo": "El desafío permitió fortalecer habilidades técnicas, de diseño y comunicación, además de mejorar la organización y el trabajo en equipo."
   }
 ]
