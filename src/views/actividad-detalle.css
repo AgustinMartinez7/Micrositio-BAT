@@ -116,6 +116,12 @@
   margin: 0;
 }
 
+.act-detalle-link {
+  color: #4ea1ff;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
 .evidence-item {
   margin-bottom: 8px;
 }

@@ -50,11 +50,20 @@ const ActividadDetalle = () => {
                 if (Array.isArray(value)) {
                   contentNode = (
                     <div className="act-detalle-section-text">
-                      {value.map((item, i) => (
-                        <div key={i} className="evidence-item">
-                          <strong>{item.label}:</strong> <span dangerouslySetInnerHTML={{ __html: item.value || ' ' }} />
-                        </div>
-                      ))}
+                      {value.map((item, i) => {
+                        const val = item.value || '';
+                        const isUrl = typeof val === 'string' && /^(https?:\/\/)/i.test(val);
+                        return (
+                          <div key={i} className="evidence-item">
+                            <strong>{item.label}:</strong>{' '}
+                            {isUrl ? (
+                              <a href={val} target="_blank" rel="noopener noreferrer" className="act-detalle-link">{val}</a>
+                            ) : (
+                              <span dangerouslySetInnerHTML={{ __html: val || ' ' }} />
+                            )}
+                          </div>
+                        );
+                      })}
                     </div>
                   );
                 } else if (typeof value === 'object' && value !== null) {

@@ -1,29 +1,26 @@
 [
   {
-    "id": "act-3",
-    "titulo": "Actividad 3",
-    "descripcion": "Breve descripción de la actividad 3. Aquí puedes resumir de qué se trata y su objetivo principal.",
-    "Solución": "Call out a feature, benefit, or value that can stand on its own.",
-    "Herramientas": "Call out a feature, benefit, or value that can stand on its own.",
-    "Problema abordado": "Call out a feature, benefit, or value that can stand on its own.",
-    "Evidencias": [
-      { "label": "Google Doc", "value": "" },
-      { "label": "Presentation", "value": "" },
-      { "label": "Video", "value": "" }
-    ],
-    "Reflexión de equipo": "Call out a feature, benefit, or value that can stand on its own. Call out a feature, benefit, or value that can stand on its own. Call out a feature, benefit, or value that can stand on its own."
-  },
-  {
-    "id": "act-2",
-    "titulo": "Actividad 2",
-    "descripcion": "Descripción concisa de la actividad 2 para mostrar en la grilla. Un vistazo general al trabajo realizado.",
-    "Solución": "Descripción de la solución de la actividad 2. Puedes editar este texto desde el archivo JSON.",
-    "Herramientas": "Herramientas utilizadas en la actividad 2.",
-    "Problema abordado": "Problema que se abordó en esta actividad.",
-    "Evidencias": [
-      { "label": "Documento", "value": "Enlace al documento" },
-      { "label": "Video demo", "value": "Enlace al video" }
-    ],
-    "Reflexión del equipo": "Reflexión del equipo sobre la actividad 2. Este contenido es generado dinámicamente desde el archivo JSON, tomando la clave (el atributo) como el título de la sección."
-  }
+  "id": "act-1",
+  "titulo": "La Gerencia",
+  "descripcion": "Investigación académica sobre los fundamentos de la administración, las habilidades de Katz, los roles de Mintzberg y las teorías de liderazgo en las organizaciones modernas.",
+  "Solución": "Se analizaron y definieron las competencias necesarias para un administrador exitoso, detallando las habilidades técnicas, humanas y conceptuales, así como la clasificación de roles gerenciales y estilos de liderazgo situacional.",
+  "Herramientas": "Investigación bibliográfica, análisis de textos académicos de Robert L. Katz y Henry Mintzberg, y uso de recursos digitales educativos.",
+  "Problema abordado": "La necesidad de definir el perfil y las competencias del gerente del siglo XXI para enfrentar entornos de incertidumbre y complejidad, y cómo estas habilidades se distribuyen en la pirámide organizacional.",
+  "Evidencias": [
+    { "label": "Documento", "value": "https://docs.google.com/document/d/1g72UdT68-0dVroFZtGuprVCSLPUAsaeXWkn7ZdC8MdM/edit" }
+  ],
+  "Reflexión del equipo": "El administrador no debe ser un supervisor, sino un agente de cambio. La ética y la actitud son los pilares que transforman el conocimiento técnico en un liderazgo efectivo que garantiza la eficiencia y eficacia organizacional."
+},
+{
+  "id": "act-2",
+  "titulo": "Matriz CAME",
+  "descripcion": "Transformación del diagnóstico FODA en decisiones tácticas para la migración de infraestructura local hacia entornos Cloud e Inteligencia Artificial.",
+  "Solución": "Aplicación de la metodología CAME para: 1) Corregir la falta de certificación técnica en Azure/AWS, 2) Afrontar la resistencia cultural y riesgos de ciberseguridad, 3) Mantener la pericia en virtualización y 4) Explotar la reducción de costos operativos y el acceso a servicios de IA.",
+  "Herramientas": "Matriz CAME, Análisis FODA, Planificación Estratégica y Gestión del Cambio Organizacional.",
+  "Problema abordado": "La parálisis por análisis en la transición digital; específicamente, cómo operativizar la visión de alcanzar un 80% de infraestructura en la nube en un plazo de 3 años ante limitaciones de capacitación técnica.",
+  "Evidencias": [
+    { "label": "Documento de Actividad Práctica", "value": "https://docs.google.com/document/d/1YlUtC-z9uyvBtJ-KJzZq1FpJlbjenpm72zhEtnhqPhM/edit" }
+  ],
+  "Reflexión del equipo": "La gestión gerencial efectiva no reside en el diagnóstico (FODA), sino en la capacidad de diseñar acciones concretas (CAME). En procesos de migración tecnológica, el factor crítico de éxito no es solo el hardware, sino la gestión del talento 4.0 y la mitigación proactiva de la resistencia al cambio."
+}
 ]
