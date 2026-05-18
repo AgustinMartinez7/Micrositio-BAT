@@ -111,7 +111,7 @@ const Desktop = (props) => {
               <div className="desktop-thq-content-elm2">
                 <div className="desktop-thq-text-elm19">
                   <span className="desktop-thq-text-elm20">
-                    López Tomás Agustín 
+                    López Tomás Agustín
                   </span>
                   <span className="desktop-thq-text-elm21">
                     Cumplo el rol de llevar las ideas y los objetivos a tareas
@@ -225,8 +225,8 @@ const Desktop = (props) => {
             </motion.span>
           </div>
           <div className="desktop-thq-frame4-elm">
-            <Link 
-              to="https://drive.google.com/file/d/14blLdI6pzrnKJbgCUJfCHA6AVb_p7o5T/view?usp=drive_link"
+            <Link
+              to="https://drive.google.com/file/d/1qwv2UgdAp2VEBatodNL_p9HyVYMKIo0H/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -246,7 +246,7 @@ const Desktop = (props) => {
                 </div>
               </div>
             </Link>
-            
+
             <div className="desktop-thq-card3-elm2">
               <div className="desktop-thq-body-elm2">
                 <div className="desktop-thq-text-elm36">
