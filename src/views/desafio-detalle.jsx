@@ -42,7 +42,7 @@ const ActividadDetalle = () => {
             }}
           >
             <Link to="/desafios" className="act-detalle-back-link">
-              ← Volver a Desafíos
+              ↩ Volver a Desafíos
             </Link>
             <h1 className="act-detalle-title">{actividad.titulo}</h1>
             <p className="act-detalle-desc">{actividad.descripcion}</p>

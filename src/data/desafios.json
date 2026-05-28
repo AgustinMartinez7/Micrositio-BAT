@@ -31,5 +31,18 @@
     "Herramientas": "React, HTML, CSS, JavaScript y herramientas de maquetación para desarrollar un micrositio claro, organizado y visualmente atractivo, aplicando además diseño web, organización de contenidos y trabajo colaborativo.",
     "Problema abordado": "Centralizar y mostrar de forma clara el proceso de aprendizaje, las competencias desarrolladas y las producciones del equipo.",
     "Reflexión del equipo": "El desafío permitió fortalecer habilidades técnicas, de diseño y comunicación, además de mejorar la organización y el trabajo en equipo."
+  },
+     {
+    "id": "desafio-7",
+    "titulo": "Desafío 7",
+    "descripcion": "Utilizar el diagrama de Ishikawa para modelar y analizar un problema organizacional, identificando y desglosando sus causas según las categorías de las 6M.",
+    "Solución": "Diseñamos un plan de acción para el escenario del ejercicio que nos habia tocado sobre pediatría enfocado en reducir la agenda al 70% de capacidad y optimizar la preparación previa de las historias clínicas. Para nuestro TPI, propusimos la implementación de un sistema de gestión de inventario centralizado acompañado de capacitaciones para el personal.",
+    "Herramientas": "Diagrama de Causa y Efecto (Ishikawa).",
+    "Evidencias": [
+      { "label": "Trabajo colaborativo", "value": "https://docs.google.com/document/d/1QIiJZT-Kzr-XDW89TkzV52y-WuHj7cXY4J3kSwiagNs/edit?usp=sharing" }
+    ],
+    "Problema abordado": "Largos tiempos de espera en pediatría e ineficiencia en la consulta de precios en nuestro TPI.",
+    "Reflexión de equipo": "Concluimos que esta herramienta nos permitió ir más allá de los síntomas visibles y analizar el problema desde su raíz, comprendiendo que un cambio estructural efectivo requiere abordar las causas más críticas.",
+    "imagen": "/public/diagrama ishikawa.png"
   }
 ]
