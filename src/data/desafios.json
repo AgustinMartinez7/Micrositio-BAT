@@ -44,5 +44,17 @@
     "Problema abordado": "Largos tiempos de espera en pediatría e ineficiencia en la consulta de precios en nuestro TPI.",
     "Reflexión de equipo": "Concluimos que esta herramienta nos permitió ir más allá de los síntomas visibles y analizar el problema desde su raíz, comprendiendo que un cambio estructural efectivo requiere abordar las causas más críticas.",
     "imagen": "/diagrama-ishikawa.png"
+  },
+  {
+    "id": "desafio-8",
+    "titulo": "Desafío 8",
+    "descripcion": "Se realizó una investigación sobre Devlights y el perfil de Nicolás Dogi (CCO), seguida de la participación en la charla, con el fin de conocer la organización y su experiencia en la industria tecnológica.",
+    "Problema abordado": "Obtener información sobre Devlights, a través de las respuestas brindadas por Nicolás durante su visita, para analizar a la organización desde las perspectivas sociotécnica, de sistemas de información y de gestión empresarial.",
+    "Solución": "Elaboración de un análisis integral de Devlights, identificando la interacción entre sus componentes humanos y tecnológicos, sus factores clave de éxito, los desafíos que enfrenta y las estrategias que utiliza para adaptarse a un entorno tecnológico en constante cambio.",
+    "Herramientas": "Investigación documental, análisis grupal y entrevista con experto.",
+    "Evidencias": [
+      { "label": "Trabajo colaborativo", "value": "https://docs.google.com/document/d/1CfWRlc_lzEPU7rcU4Qt1iw_O1MbjL9iKoCw3yGK_vxI/edit?usp=sharing" }
+    ],
+    "Reflexión de equipo": "Nos permitió comprender cómo una empresa tecnológica integra personas, procesos y tecnología para competir en mercados internacionales, destacando la importancia de la innovación, la capacitación continua y la adaptación al cambio."
   }
 ]
