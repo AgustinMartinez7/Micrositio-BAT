@@ -166,10 +166,11 @@
 
 .evidence-item a {
   color: inherit;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .evidence-item a:hover {
   color: #888888;
   text-decoration: underline;
 }
+
