@@ -2,6 +2,11 @@ import Header1 from '../components/header1';
 import Footer from '../components/footer';
 import './tpi.css';
 import { motion } from 'motion/react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 const TPI = (props) => {
   return (
@@ -49,6 +54,37 @@ const TPI = (props) => {
                 Plan de Trabajo
               </a>
             </div>
+          </motion.div>
+          <motion.div
+            className='tpi-carrusel-contenedor'
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5, ease: 'easeInOut', y: { type: 'spring', visualDuration: 0.4, bounce: 0.4 } }}
+          >
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              slidesPerView={1}
+              spaceBetween={16}
+              loop={true}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
+              pagination={{ clickable: true }}
+              navigation={true}
+              breakpoints={{
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 }
+              }}
+              className='tpi-carrusel-swiper'
+            >
+              {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((num) => (
+                <SwiperSlide key={num}>
+                  <img
+                    src={`/tpi-fotos/foto-${String(num).padStart(2, '0')}.jpeg`}
+                    alt={`Foto ${num}`}
+                    className='tpi-carrusel-img'
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </motion.div>
         </div>
         <Footer rootClassName='footerroot-class-name1'></Footer>
