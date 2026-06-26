@@ -53,6 +53,14 @@ const TPI = (props) => {
               >
                 Plan de Trabajo
               </a>
+              <a
+                href="https://drive.google.com/file/d/1ipLb9e4mVUw9osfwzEgP4opV0IFx5sSI/view?usp=share_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="tpi-boton"
+              >
+                Infografia
+              </a>
             </div>
           </motion.div>
           <motion.div
