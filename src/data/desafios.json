@@ -45,6 +45,18 @@
     "Reflexión de equipo": "Concluimos que esta herramienta nos permitió ir más allá de los síntomas visibles y analizar el problema desde su raíz, comprendiendo que un cambio estructural efectivo requiere abordar las causas más críticas.",
     "imagen": "/diagrama-ishikawa.png"
   },
+    {
+    "id": "desafio-6",
+    "titulo": "Desafío 6",
+    "descripcion": "Se analizó el caso de Almacenes del Norte S.A. para identificar las causas de la resistencia al cambio durante la implementación de un sistema WMS y proponer un plan de gestión del cambio organizacional.",
+    "Solución": "Se propuso una implementación gradual basada en el modelo de Lewin, con una estrategia de comunicación, capacitación y participación activa de los líderes internos para reducir la resistencia y facilitar la adopción del nuevo sistema.",
+    "Herramientas": "Análisis de caso, modelo de gestión del cambio de Lewin.",
+    "Evidencias": [
+      { "label": "Trabajo colaborativo", "value": "https://docs.google.com/document/d/1VY8IrSvEvCBoxCGvAwFuDCsjUHtzfS1lL2RNQuTC5t4/edit?usp=sharing" }
+    ],
+    "Problema abordado": "La empresa enfrentó una fuerte resistencia de los empleados frente a una transformación digital debido a una comunicación deficiente, falta de capacitación y escasa gestión del factor humano durante la implementación del cambio.",
+    "Reflexión de equipo": "Comprendimos que una transformación tecnológica solo tiene éxito cuando va acompañada de una adecuada gestión del cambio, donde la comunicación, el liderazgo y la participación de las personas son tan importantes como la tecnología implementada."
+  },
   {
     "id": "desafio-8",
     "titulo": "Desafío 8",
