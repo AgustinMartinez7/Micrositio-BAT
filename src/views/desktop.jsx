@@ -226,7 +226,7 @@ const Desktop = (props) => {
           </div>
           <div className='desktop-thq-frame4-elm'>
             <Link
-              to='https://drive.google.com/file/d/1qwv2UgdAp2VEBatodNL_p9HyVYMKIo0H/view?usp=sharing'
+              to='https://drive.google.com/file/d/1RMmm4MHKmFFKCLUEpXNmf5x7wX-0C9ei/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -248,7 +248,7 @@ const Desktop = (props) => {
             </Link>
 
             <Link
-              to='https://drive.google.com/file/d/1FRHjLdWSb1rhfyK-bMQZAJLmytUtMlDg/view?usp=sharing'
+              to='https://drive.google.com/file/d/1HDEF9qwBSS6DUZkxICQSSkYbIPFQtqk7/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -269,7 +269,7 @@ const Desktop = (props) => {
               </div>
             </Link>
             <Link
-              to='https://drive.google.com/file/d/1q19NPK-rt4_p5LL4bKgmi0UG9c1T0I_y/view?usp=sharing'
+              to='https://drive.google.com/file/d/1D4eOE6ZOBZscWODpqusz2ZEANfWlJtBg/view?usp=sharing'
               target='_blank'
               rel='noopener noreferrer'
             >
