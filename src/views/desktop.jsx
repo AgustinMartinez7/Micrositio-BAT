@@ -79,7 +79,7 @@ const Desktop = (props) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Hoja de ruta -&gt;
+                  Ruta Personal de Aprendizaje -&gt;
                 </Link>
               </div>
               <motion.img
@@ -127,7 +127,7 @@ const Desktop = (props) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Hoja de ruta -&gt;
+                  Ruta Personal de Aprendizaje -&gt;
                 </Link>
               </div>
             </div>
@@ -152,7 +152,7 @@ const Desktop = (props) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Hoja de ruta -&gt;
+                  Ruta Personal de Aprendizaje -&gt;
                 </Link>
               </div>
               <motion.img
@@ -197,7 +197,7 @@ const Desktop = (props) => {
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Hoja de ruta -&gt;
+                  Ruta Personal de Aprendizaje -&gt;
                 </Link>
               </div>
             </div>
