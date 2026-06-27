@@ -5,7 +5,7 @@
   align-items: center;
   flex-direction: column;
 }
- 
+
 .actividades-thq-desktop-elm {
   width: 100%;
   height: auto;
@@ -17,7 +17,7 @@
   flex-direction: column;
   scroll-behavior: smooth;
 }
- 
+
 .actividades-thq-featurecards1-elm {
   gap: 32px;
   min-height: 100vh;
@@ -25,13 +25,20 @@
   padding: 32px 64px 120px;
   flex-grow: 1;
   align-self: stretch;
-  background: linear-gradient(180deg, rgb(0, 0, 0) 0.00%,rgb(28, 28, 28) 100.00%,rgb(28, 28, 28) 100.00%);
+  background: linear-gradient(
+    180deg,
+    rgb(0, 0, 0) 0%,
+    rgb(28, 28, 28) 100%,
+    rgb(28, 28, 28) 100%
+  );
   align-items: center;
   flex-direction: column;
   background-size: cover;
-  background-image: url("/bg-1500h.png"),linear-gradient(135deg, rgb(0, 0, 0) 0.00%,rgb(28, 28, 28) 59.00%);
+  background-image:
+    url("/bg-1500h.png"),
+    linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(28, 28, 28) 59%);
 }
- 
+
 .actividades-thq-text-elm10 {
   color: rgb(255, 255, 255);
   width: 740px;
@@ -45,7 +52,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-container2 {
   gap: 16px;
   display: flex;
@@ -59,6 +66,7 @@
   gap: 24px;
   width: 100%;
   max-width: 1000px;
+  /* grid-auto-rows: 1fr; */
 }
 
 .actividad-card {
@@ -68,11 +76,14 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
   text-decoration: none;
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  height: 100%;
+  height: 260px;
+  overflow: hidden;
 }
 
 .actividad-card:hover {
@@ -86,6 +97,10 @@
   font-weight: 700;
   font-family: "Manrope";
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .actividad-card-desc {
@@ -95,14 +110,18 @@
   font-family: "Manrope";
   line-height: 1.5;
   margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
- 
+
 .actividades-accordion {
   width: 100%;
   display: flex;
   flex-direction: column;
 }
- 
+
 .actividades-thq-trigger-elm {
   cursor: pointer;
   padding-top: 16px;
@@ -113,13 +132,13 @@
   backdrop-filter: blur(3px);
   background-color: rgba(247, 247, 247, 0.12);
 }
- 
+
 .actividades-thq-summary-elm {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
- 
+
 .actividades-text1 {
   color: rgb(255, 255, 255);
   font-size: 32px;
@@ -127,11 +146,11 @@
   font-family: "Manrope";
   font-weight: 400;
 }
- 
+
 .actividades-thq-icon-container-elm {
   transition: transform 0.3s ease-in-out;
 }
- 
+
 .actividades-container3 {
   flex: 0 0 auto;
   width: 100%;
@@ -140,7 +159,7 @@
   border-radius: 32px;
   background-color: rgba(0, 0, 0, 0.3);
 }
- 
+
 .actividades-thq-card3-elm {
   width: 100%;
   display: grid;
@@ -150,7 +169,7 @@
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
 }
- 
+
 .actividades-thq-text-elm11 {
   gap: 8px;
   width: 100%;
@@ -160,7 +179,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .actividades-thq-text-elm12 {
   color: rgba(255, 201, 55, 1);
   height: auto;
@@ -174,7 +193,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm13 {
   color: rgba(255, 255, 255, 1);
   width: 100%;
@@ -189,7 +208,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm14 {
   gap: 8px;
   width: 100%;
@@ -200,7 +219,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .actividades-thq-text-elm15 {
   color: rgba(255, 201, 55, 1);
   height: auto;
@@ -214,7 +233,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm16 {
   color: rgba(255, 255, 255, 1);
   width: auto;
@@ -229,7 +248,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm17 {
   gap: 8px;
   width: 100%;
@@ -239,7 +258,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .actividades-thq-text-elm18 {
   color: rgba(255, 201, 55, 1);
   height: auto;
@@ -253,7 +272,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm19 {
   color: rgba(255, 255, 255, 1);
   width: 100%;
@@ -268,7 +287,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm20 {
   gap: 8px;
   width: 100%;
@@ -278,7 +297,7 @@
   flex-shrink: 0;
   flex-direction: column;
 }
- 
+
 .actividades-thq-text-elm21 {
   color: rgba(255, 201, 55, 1);
   height: auto;
@@ -292,7 +311,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm22 {
   color: rgba(255, 255, 255, 1);
   width: 100%;
@@ -307,7 +326,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm26 {
   gap: 11px;
   width: 100%;
@@ -321,7 +340,7 @@
   grid-template-rows: repeat(1, 1fr);
   grid-template-columns: repeat(1, 1fr);
 }
- 
+
 .actividades-thq-text-elm27 {
   color: rgba(255, 201, 55, 1);
   width: auto;
@@ -336,7 +355,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-thq-text-elm28 {
   color: rgb(255, 255, 255);
   width: 100%;
@@ -352,11 +371,11 @@
   font-stretch: normal;
   text-decoration: none;
 }
- 
+
 .actividades-link {
   display: contents;
 }
- 
+
 .actividades-container4 {
   right: 50px;
   border: 1px solid #ffffff5c;
@@ -375,12 +394,12 @@
   backdrop-filter: blur(6px);
   background-color: rgba(41, 41, 41, 0.41);
 }
- 
+
 .actividades-icon3 {
   width: 24px;
   margin-right: 4px;
 }
- 
+
 .actividades-text4 {
   color: white;
   font-size: 13px;
@@ -388,8 +407,8 @@
   font-weight: 500;
   line-height: 24px;
 }
- 
-@media(max-width: 991px) {
+
+@media (max-width: 991px) {
   .actividades-thq-text-elm27 {
     width: auto;
   }
@@ -422,6 +441,10 @@
   .actividades-thq-card3-elm {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
+  }
+
+  .actividad-card {
+    height: 240px;
   }
 
   .actividades-thq-text-elm11,
@@ -494,6 +517,10 @@
   .actividades-thq-text-elm22,
   .actividades-thq-text-elm28 {
     font-size: 14px;
+  }
+
+  .actividad-card {
+    height: 220px;
   }
 
   .actividades-container4 {
