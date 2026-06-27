@@ -30,7 +30,7 @@
     rgb(28, 28, 28) 100%
   );
   align-items: center;
-  padding-top: clamp(24px, 4vw, 40px);
+  padding-top: 32px;
   padding-left: clamp(16px, 5vw, 64px);
   padding-right: clamp(16px, 5vw, 64px);
   flex-direction: column;
