@@ -32,26 +32,18 @@ const TPI = (props) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2, ease: 'easeInOut', y: { type: 'spring', visualDuration: 0.4, bounce: 0.4 } }}
           >
-            <h2 className='tpi-subtitulo'>Ana Pina</h2>
+            <h2 className='tpi-subtitulo'>Ana Pina S.R.L.</h2>
             <p className='tpi-descripcion'>
               Es una empresa dedicada a la comercialización de muebles, blanquería y artículos de bazar. Además, ofrece servicios de asesoramiento en decoración para hogares e instituciones, brindando soluciones integrales adaptadas a las necesidades de cada cliente.
             </p>
             <div className='tpi-botones-container'>
               <a
-                href="https://docs.google.com/document/d/1hvsuPxgHRUuP-RjxQxOLKsNIgjeUuiLDyQjR94p6lWw/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1nBg0W402xV12YF5qV6k_-Z5LL4LqDZi2e1WGENKQsjY/edit?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="tpi-boton"
               >
-                Diagnóstico Organizacional
-              </a>
-              <a
-                href="https://docs.google.com/document/d/1KtEiWTKrLXWb9NpnhkvXSO1D_06BP95TnV53A750oe0/edit?usp=sharing"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="tpi-boton"
-              >
-                Plan de Trabajo
+                Documento final
               </a>
               <a
                 href="https://drive.google.com/file/d/1ipLb9e4mVUw9osfwzEgP4opV0IFx5sSI/view?usp=share_link"
@@ -60,6 +52,14 @@ const TPI = (props) => {
                 className="tpi-boton"
               >
                 Infografia
+              </a>
+              <a
+                href="https://docs.google.com/document/d/1Zm9PTMLvAcmrIpqP5o4Qj-aXhVr8ewn6T-N-Pq_THco/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="tpi-boton"
+              >
+                Carta acuerdo
               </a>
             </div>
           </motion.div>
